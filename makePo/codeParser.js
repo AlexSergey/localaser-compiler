@@ -7,7 +7,7 @@ const { isArray } = require('valid-types');
 
 function codeParser(folder, options) {
     return new Promise((resolve, reject) => {
-        if (options.query || (isArray(options.query) && options.query.length === 0)) {
+        if (!options.query || (isArray(options.query) && options.query.length === 0)) {
             return reject('"query" can\'t be empty');
         }
         let stream = gs(options.query, {
