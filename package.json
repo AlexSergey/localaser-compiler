@@ -1,22 +1,24 @@
 {
-  "name": "localaser-compiler",
+  "name": "localazer-compiler",
   "version": "0.9.1",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AlexSergey/localaser-compiler.git"
+    "url": "git+https://github.com/AlexSergey/localazer-compiler.git"
   },
-  "keywords": [],
-  "author": "Aleksandrov Sergey <gooddev.sergey@gmail.com> (https://github.com/AlexSergey/localaser-compiler)",
+  "author": "Aleksandrov Sergey <gooddev.sergey@gmail.com> (https://github.com/AlexSergey/localazer-compiler)",
   "license": "MIT",
+  "homepage": "https://github.com/AlexSergey/localazer-compiler",
   "bugs": {
-    "url": "https://github.com/AlexSergey/localaser-compiler/issues"
+    "url": "https://github.com/AlexSergey/localazer-compiler/issues"
   },
-  "homepage": "https://github.com/AlexSergey/localaser-compiler",
+  "keywords": [
+    "i18n",
+    "localization",
+    "react",
+    "react-component"
+  ],
   "dependencies": {
     "async": "2.6.2",
     "@babel/core": "7.4.3",

@@ -15,6 +15,4 @@ module.exports = async function(opts = {}) {
     }
     console.log(colors.green('Everything has compiled !'));
     process.exit();
-
-
 };
