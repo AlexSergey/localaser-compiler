@@ -1,3 +1,5 @@
+# This module has been deprecated. Please use [Rockpack](https://github.com/AlexSergey/rockpack)
+
 # Localazer Compiler
 
 <div align="center">
